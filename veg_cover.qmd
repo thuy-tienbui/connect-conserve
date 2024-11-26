@@ -1,0 +1,79 @@
+---
+title: "CP Connectivity"
+format: html
+editor: visual
+---
+
+```{r}
+#load libraries
+library(tidyverse)
+library(janitor)
+library(scales) #edit the axis on plot
+```
+
+```{r}
+#load data
+veg_data <- read.csv(here::here("cal_veg_attribute.csv")) %>% clean_names()
+```
+
+
+```{r}
+# tidy data
+clean_veg <- veg_data %>% 
+  mutate(area = count * 900) %>%
+  select(whr13name, area) %>% 
+  drop_na() %>%
+  filter(whr13name != "")  # Remove empty strings
+
+pivot_veg <- clean_veg %>%
+  pivot_wider(names_from = whr13name, 
+              values_from = area, 
+              values_fn = sum)  # Summarize duplicates
+
+
+pivot_long_veg <- pivot_veg %>%
+  pivot_longer(cols = everything(),  # Pivot all columns into long format
+               names_to = "whr13name", 
+               values_to = "area") %>%
+  drop_na()  # Remove rows with NA values
+
+
+#caulculate sum of areas
+pivot_long_veg %>% 
+  summarise(sum(area))
+```
+```{r}
+#percent of vegetation 
+pivot_long_veg <- pivot_long_veg %>% 
+  mutate(percent = area / sum(area)) %>% 
+  arrange(desc(percent)) %>% 
+  rename(veg_group = whr13name) 
+
+#save the csv
+write_csv(pivot_long_veg, here::here("pivot_long_veg.csv"))
+
+```
+
+
+
+```{r}
+# Make a bar graph of the vegetation cover by hectares
+pivot_long_veg <- pivot_long_veg %>% 
+  mutate(area_ha = area / 10000)
+
+pivot_long_veg %>% 
+  ggplot(aes(x = reorder(veg_group, percent), y = area_ha)) +
+  geom_col(fill = "darkgreen") +
+  coord_flip() +
+  labs(x = NULL, y = "Area (hectares)") +
+  scale_y_continuous(labels = comma) +  # Add commas to y-axis labels
+  theme_minimal() +
+  theme(axis.text.x = element_text(size = 12),  
+        axis.text.y = element_text(size = 12), 
+        axis.title.x = element_text(size = 14), 
+        axis.title.y = element_text(size = 14))
+
+# Save the plot
+ggsave(here::here("veg_cover.png"), width = 8, height = 6, dpi = 300)
+```
+
