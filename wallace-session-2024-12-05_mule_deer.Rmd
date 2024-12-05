@@ -1,0 +1,224 @@
+Wallace Session 2024-12-05
+================
+
+Please find below the R code history from your *Wallace* v2.1.3 session.
+
+You can reproduce your session results by running this R Markdown file
+in RStudio.
+
+Each code block is called a “chunk”, and you can run them either
+one-by-one or all at once by choosing an option in the “Run” menu at the
+top-right corner of the “Source” pane in RStudio.
+
+For more detailed information see <http://rmarkdown.rstudio.com>).
+
+### Package installation
+
+Wallace uses the following R packages that must be installed and loaded
+before starting.
+
+```{r}
+library(spocc)
+library(spThin)
+library(dismo)
+library(sf)
+library(ENMeval)
+library(wallace)
+```
+
+The *Wallace* session code .Rmd file is composed of a chain of module
+functions that are internal to *Wallace*. Each of these functions
+corresponds to a single module that the user ran during the session. To
+see the internal code for these module functions, click on the links in
+the .Rmd file. Users are encouraged to write custom code in the .Rmd
+directly to modify their analysis, and even modify the module function
+code to further customize. To see the source code for any module
+function, just type its name into the R console and press Return.
+
+```{r}
+# example:
+# just type the function name and press Return to see its source code
+# paste this code into a new script to edit it
+occs_queryDb
+```
+
+Your analyses are below.
+
+------------------------------------------------------------------------
+
+## Analysis for *Odocoileus hemionus* (Oh)
+
+User CSV path with occurrence data. If the CSV file is not in the
+current workspace, change to the correct file path
+(e.g. “/Users/darwin/Documents/occs/”).
+
+```{r}
+# NOTE: provide the folder path of the .csv file
+occs_path <- ""
+occs_path <- file.path(occs_path, "mule_deer_clean.csv")
+# get a list of species occurrence data
+userOccs_Oh <- occs_userOccs(
+  txtPath = occs_path, 
+  txtName = "mule_deer_clean.csv", 
+  txtSep = ",", 
+  txtDec = ".")
+occs_Oh <- userOccs_Oh$Odocoileus_hemionus$cleaned
+```
+
+### Obtain environmental data
+
+Using user-specified variables.
+
+```{r}
+## Specify the directory with the environmental variables
+dir_envs_Oh <- ""
+envs_path <- file.path(dir_envs_Oh, c('cal_veg_270m_wgs84_NEW_Clip.tif', 'dem_270m_wgs84_Clip.tif', 'distance_water_270m_wgs84_Clip.tif', 'mean_ppt_270m_wgs84_Clip.tif', 'mean_temp_270m_wgs84_Clip.tif', 'season_ppt_270m_wgs84_Clip.tif', 'season_temp_270m_wgs84_Clip.tif'))
+# Create environmental object 
+envs_Oh <- envs_userEnvs(
+  rasPath = envs_path,
+  rasName = c('cal_veg_270m_wgs84_NEW_Clip.tif', 'dem_270m_wgs84_Clip.tif', 'distance_water_270m_wgs84_Clip.tif', 'mean_ppt_270m_wgs84_Clip.tif', 'mean_temp_270m_wgs84_Clip.tif', 'season_ppt_270m_wgs84_Clip.tif', 'season_temp_270m_wgs84_Clip.tif'),
+  doBrick = FALSE)
+occs_xy_Oh <- occs_Oh[c('longitude', 'latitude')]
+occs_vals_Oh <- as.data.frame(raster::extract(envs_Oh, occs_xy_Oh, cellnumbers = TRUE))
+# Remove duplicated same cell values
+occs_Oh <- occs_Oh[!duplicated(occs_vals_Oh[, 1]), ]
+occs_vals_Oh <- occs_vals_Oh[!duplicated(occs_vals_Oh[, 1]), -1]
+# remove occurrence records with NA environmental values
+occs_Oh <- occs_Oh[!(rowSums(is.na(occs_vals_Oh)) >= 1), ]
+# also remove variable value rows with NA environmental values
+occs_vals_Oh <- na.omit(occs_vals_Oh)
+# add columns for env variable values for each occurrence record
+occs_Oh <- cbind(occs_Oh, occs_vals_Oh)
+```
+
+### Process Occurrence Data
+
+Thinning the occurrences to 6 km
+
+```{r}
+# Thin occurrences 
+occs_Oh <- poccs_thinOccs(
+  occs = occs_Oh, 
+  thinDist = 6)
+```
+
+### Process environmental data
+
+Sampling of 10000 background points and corresponding environmental data
+using a “minimum convex polygon” method with a 0.5 degree buffer.
+
+```{r}
+# Generate background extent 
+bgExt_Oh <- penvs_bgExtent(
+  occs = occs_Oh,
+  bgSel = "minimum convex polygon",
+  bgBuf = 0.5)
+# Mask environmental data to provided extent
+bgMask_Oh <- penvs_bgMask(
+  occs = occs_Oh,
+  envs = envs_Oh,
+  bgExt = bgExt_Oh)
+# Sample background points from the provided area
+bgSample_Oh <- penvs_bgSample(
+  occs = occs_Oh,
+  bgMask =  bgMask_Oh,
+  bgPtsNum = 10000)
+# Extract values of environmental layers for each background point
+bgEnvsVals_Oh <- as.data.frame(raster::extract(bgMask_Oh,  bgSample_Oh))
+##Add extracted values to background points table
+bgEnvsVals_Oh <- cbind(scientific_name = paste0("bg_", "Odocoileus hemionus"), bgSample_Oh,
+                            occID = NA, year = NA, institution_code = NA, country = NA,
+                            state_province = NA, locality = NA, elevation = NA,
+                            record_type = NA, bgEnvsVals_Oh)
+```
+
+### Partition occurrence data
+
+Partition occurrences and background points for model training and
+validation using “hierarchical checkerboard”, a spatial partition method
+with an aggregation factor of 2.
+
+```{r}
+# R code to get partitioned data
+groups_Oh <- part_partitionOccs(
+  occs = occs_Oh ,
+  bg =  bgSample_Oh, 
+  method = "cb2",
+  bgMask = bgMask_Oh,
+  aggFact = 2) 
+```
+
+### Build and Evaluate Niche Model
+
+Generating a species distribution model using the maxnet algorithm as
+implemented in ENMeval V2.0 (with clamping = TRUE). For tuning using LQ
+feature classes and regularization multipliers in the 0.5, 0.5 range
+increasing by 1. Not using any categorical predictor variables.
+
+```{r}
+# Run maxent model for the selected species
+model_Oh <- model_maxent(
+  occs = occs_Oh,
+  bg = bgEnvsVals_Oh,
+  user.grp = groups_Oh, 
+  bgMsk = bgMask_Oh,
+  rms = c(0.5, 0.5), 
+  rmsStep =  1,
+  fcs = 'LQ',
+  clampSel = TRUE,
+  algMaxent = "maxnet",
+  parallel = FALSE,
+  numCores = 11)
+```
+
+### Visualize
+
+Generate a map of the maxnet generated model with no threshold
+
+```{r}
+# Select current model and obtain raster prediction
+m_Oh <- model_Oh@models[["fc.LQ_rm.0.5"]]
+predSel_Oh <- predictMaxnet(m_Oh, bgMask_Oh,
+                                          type = "cloglog", 
+                                          clamp = TRUE)
+#Get values of prediction
+mapPredVals_Oh <- getRasterVals(predSel_Oh, "cloglog")
+#Define colors and legend  
+rasCols <- c("#2c7bb6", "#abd9e9", "#ffffbf", "#fdae61", "#d7191c")
+legendPal <- colorNumeric(rev(rasCols), mapPredVals_Oh, na.color = 'transparent')
+rasPal <- colorNumeric(rasCols, mapPredVals_Oh, na.color = 'transparent')
+#Generate map
+m <- leaflet() %>% addProviderTiles(providers$Esri.WorldTopoMap) 
+m  %>%
+  leaflet::addLegend("bottomright", pal = legendPal,
+            title = "Predicted Suitability<br>(Training)",
+            values = mapPredVals_Oh, layerId = "train",
+            labFormat = reverseLabel(2, reverse_order = TRUE)) %>% 
+  #add occurrence data
+  addCircleMarkers(data = occs_Oh, lat = ~latitude, lng = ~longitude,
+                   radius = 5, color = 'red', fill = TRUE, fillColor = "red",
+                   fillOpacity = 0.2, weight = 2, popup = ~pop) %>% 
+  ##Add model prediction
+  addRasterImage(predSel_Oh, colors = rasPal, opacity = 0.7,
+                 group = 'vis', layerId = 'mapPred', method = "ngb") %>%
+ ##add background polygons
+  addPolygons(data = bgExt_Oh,fill = FALSE,
+              weight = 4, color = "blue", group = 'proj')
+```
+
+### Visualize
+
+Visualize response curves from “maxnet” model.
+
+```{r}
+# Retrieve env variables
+n <- mxNonzeroCoefs(model_Oh@models[["fc.LQ_rm.0.5"]], "maxnet")
+
+# Create response curves
+for (i in n) {
+maxnet::response.plot(
+  model_Oh@models[["fc.LQ_rm.0.5"]],
+  v = i,
+  type = "cloglog")
+}
+```
