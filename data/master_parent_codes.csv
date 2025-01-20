@@ -1,0 +1,340 @@
+category,clean_code,sources,percent_source,frequency,interview_id,percent_coverage,interview_name,interview_org,character_count
+Conservation Criteria and Indicators,Biodiversity metrics,10,52.63157895,15,01,1.56,Bill Leahy,LegacyWorks Group,25490
+Conservation Criteria and Indicators,Biodiversity metrics,10,52.63157895,15,02,1,Christie Boser,United States Fish and Wildlife Service,29315
+Conservation Criteria and Indicators,Biodiversity metrics,10,52.63157895,15,03,2.05,Doug Kern,Gaviota Coast Conservancy,19144
+Conservation Criteria and Indicators,Biodiversity metrics,10,52.63157895,15,04,3.79,Mark Reynolds,The Nature Conservancy,17789
+Conservation Criteria and Indicators,Biodiversity metrics,10,52.63157895,15,13,0.53,Ben Halpern,National Center for Ecological Analysis and Synthesis,19784
+Conservation Criteria and Indicators,Biodiversity metrics,10,52.63157895,15,14,0.42,Bre Sliker and Em Johnson,Community Environmental Council,27472
+Conservation Criteria and Indicators,Biodiversity metrics,10,52.63157895,15,15,1.82,Darryl York,Vandenberg Space Force Base,23003
+Conservation Criteria and Indicators,Biodiversity metrics,10,52.63157895,15,16,2.99,Brian Holguin,Archeological Consultant,21468
+Conservation Criteria and Indicators,Biodiversity metrics,10,52.63157895,15,17,2.1,Brian Trautwein,Environmental Defense Center,26394
+Conservation Criteria and Indicators,Biodiversity metrics,10,52.63157895,15,19,0.97,Teresa Romero,Native Coast Action Network,21630
+Conservation Criteria and Indicators,Cultural significance,2,10.52631579,6,13,3.76,Ben Halpern,National Center for Ecological Analysis and Synthesis,19784
+Conservation Criteria and Indicators,Cultural significance,2,10.52631579,6,16,8.07,Brian Holguin,Archeological Consultant,21468
+Conservation Criteria and Indicators,Ecological resilience (functional),7,36.84210526,9,03,1.8,Doug Kern,Gaviota Coast Conservancy,19144
+Conservation Criteria and Indicators,Ecological resilience (functional),7,36.84210526,9,04,1.86,Mark Reynolds,The Nature Conservancy,17789
+Conservation Criteria and Indicators,Ecological resilience (functional),7,36.84210526,9,06,0.96,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Conservation Criteria and Indicators,Ecological resilience (functional),7,36.84210526,9,10,0.69,Steph Wald,Creeklands Conservation,28115
+Conservation Criteria and Indicators,Ecological resilience (functional),7,36.84210526,9,17,0.59,Brian Trautwein,Environmental Defense Center,26394
+Conservation Criteria and Indicators,Ecological resilience (functional),7,36.84210526,9,19,2.97,Teresa Romero,Native Coast Action Network,21630
+Conservation Criteria and Indicators,Equity and environmental justice,2,10.52631579,2,02,2,Christie Boser,United States Fish and Wildlife Service,29315
+Conservation Criteria and Indicators,Equity and environmental justice,2,10.52631579,2,14,3.87,Bre Sliker and Em Johnson,Community Environmental Council,27472
+Conservation Criteria and Indicators,Habitat intactness (structural),9,47.36842105,19,01,1.43,Bill Leahy,LegacyWorks Group,25490
+Conservation Criteria and Indicators,Habitat intactness (structural),9,47.36842105,19,03,4,Doug Kern,Gaviota Coast Conservancy,19144
+Conservation Criteria and Indicators,Habitat intactness (structural),9,47.36842105,19,04,6.73,Mark Reynolds,The Nature Conservancy,17789
+Conservation Criteria and Indicators,Habitat intactness (structural),9,47.36842105,19,08,0.77,Devin Rothman,The Land Trust For Santa Barbara,22750
+Conservation Criteria and Indicators,Habitat intactness (structural),9,47.36842105,19,10,0.69,Steph Wald,Creeklands Conservation,28115
+Conservation Criteria and Indicators,Habitat intactness (structural),9,47.36842105,19,11,3,Larissa Clark,California Department of Transportation,22226
+Conservation Criteria and Indicators,Habitat intactness (structural),9,47.36842105,19,13,3.79,Ben Halpern,National Center for Ecological Analysis and Synthesis,19784
+Conservation Criteria and Indicators,Habitat intactness (structural),9,47.36842105,19,15,1.75,Darryl York,Vandenberg Space Force Base,23003
+Conservation Criteria and Indicators,Habitat intactness (structural),9,47.36842105,19,17,0.51,Brian Trautwein,Environmental Defense Center,26394
+Conservation Criteria and Indicators,Special status species,7,36.84210526,13,02,1,Christie Boser,United States Fish and Wildlife Service,29315
+Conservation Criteria and Indicators,Special status species,7,36.84210526,13,03,5,Doug Kern,Gaviota Coast Conservancy,19144
+Conservation Criteria and Indicators,Special status species,7,36.84210526,13,04,2.92,Mark Reynolds,The Nature Conservancy,17789
+Conservation Criteria and Indicators,Special status species,7,36.84210526,13,06,1.51,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Conservation Criteria and Indicators,Special status species,7,36.84210526,13,08,1.52,Devin Rothman,The Land Trust For Santa Barbara,22750
+Conservation Criteria and Indicators,Special status species,7,36.84210526,13,10,0.33,Steph Wald,Creeklands Conservation,28115
+Conservation Criteria and Indicators,Special status species,7,36.84210526,13,15,1.03,Darryl York,Vandenberg Space Force Base,23003
+Example Projects,Anti-development project,1,5.263157895,2,17,1.7,Brian Trautwein,Environmental Defense Center,26394
+Example Projects,Biodiversity preservation project,11,57.89473684,63,01,3.65,Bill Leahy,LegacyWorks Group,25490
+Example Projects,Biodiversity preservation project,11,57.89473684,63,04,0.24,Mark Reynolds,The Nature Conservancy,17789
+Example Projects,Biodiversity preservation project,11,57.89473684,63,06,11.15,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Example Projects,Biodiversity preservation project,11,57.89473684,63,07,12.35,Moe Gomez,South Coast Habitat Restoration,35299
+Example Projects,Biodiversity preservation project,11,57.89473684,63,08,1.04,Devin Rothman,The Land Trust For Santa Barbara,22750
+Example Projects,Biodiversity preservation project,11,57.89473684,63,10,3.43,Steph Wald,Creeklands Conservation,28115
+Example Projects,Biodiversity preservation project,11,57.89473684,63,11,12.49,Larissa Clark,California Department of Transportation,22226
+Example Projects,Biodiversity preservation project,11,57.89473684,63,12,4.26,Devin Best,San Luis Obispo Resource Conservation District,29234
+Example Projects,Biodiversity preservation project,11,57.89473684,63,14,2.22,Bre Sliker and Em Johnson,Community Environmental Council,27472
+Example Projects,Biodiversity preservation project,11,57.89473684,63,17,6.03,Brian Trautwein,Environmental Defense Center,26394
+Example Projects,Biodiversity preservation project,11,57.89473684,63,18,0.67,Emma Chow,United States Department of Agriculture - Natural Resource Conservation Service,21756
+Example Projects,Climate adaptation and mitigation,6,31.57894737,13,06,1.62,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Example Projects,Climate adaptation and mitigation,6,31.57894737,13,08,1.32,Devin Rothman,The Land Trust For Santa Barbara,22750
+Example Projects,Climate adaptation and mitigation,6,31.57894737,13,09,3.67,Garrett Wong,Santa Barbara County,25251
+Example Projects,Climate adaptation and mitigation,6,31.57894737,13,12,4.67,Devin Best,San Luis Obispo Resource Conservation District,29234
+Example Projects,Climate adaptation and mitigation,6,31.57894737,13,14,2.04,Bre Sliker and Em Johnson,Community Environmental Council,27472
+Example Projects,Climate adaptation and mitigation,6,31.57894737,13,18,2.08,Emma Chow,United States Department of Agriculture - Natural Resource Conservation Service,21756
+Example Projects,Fire and fuels management,8,42.10526316,17,01,4.65,Bill Leahy,LegacyWorks Group,25490
+Example Projects,Fire and fuels management,8,42.10526316,17,04,1.3,Mark Reynolds,The Nature Conservancy,17789
+Example Projects,Fire and fuels management,8,42.10526316,17,09,0.96,Garrett Wong,Santa Barbara County,25251
+Example Projects,Fire and fuels management,8,42.10526316,17,12,3.57,Devin Best,San Luis Obispo Resource Conservation District,29234
+Example Projects,Fire and fuels management,8,42.10526316,17,14,1.6,Bre Sliker and Em Johnson,Community Environmental Council,27472
+Example Projects,Fire and fuels management,8,42.10526316,17,16,3.04,Brian Holguin,Archeological Consultant,21468
+Example Projects,Fire and fuels management,8,42.10526316,17,18,0.18,Emma Chow,United States Department of Agriculture - Natural Resource Conservation Service,21756
+Example Projects,Fire and fuels management,8,42.10526316,17,19,8.08,Teresa Romero,Native Coast Action Network,21630
+Example Projects,Habitat restoration,6,31.57894737,14,04,2.18,Mark Reynolds,The Nature Conservancy,17789
+Example Projects,Habitat restoration,6,31.57894737,14,07,2.45,Moe Gomez,South Coast Habitat Restoration,35299
+Example Projects,Habitat restoration,6,31.57894737,14,12,2.4,Devin Best,San Luis Obispo Resource Conservation District,29234
+Example Projects,Habitat restoration,6,31.57894737,14,13,2.78,Ben Halpern,National Center for Ecological Analysis and Synthesis,19784
+Example Projects,Habitat restoration,6,31.57894737,14,14,1.65,Bre Sliker and Em Johnson,Community Environmental Council,27472
+Example Projects,Habitat restoration,6,31.57894737,14,15,1.32,Darryl York,Vandenberg Space Force Base,23003
+Example Projects,Listed species recovery project,6,31.57894737,14,02,8,Christie Boser,United States Fish and Wildlife Service,29315
+Example Projects,Listed species recovery project,6,31.57894737,14,03,0.46,Doug Kern,Gaviota Coast Conservancy,19144
+Example Projects,Listed species recovery project,6,31.57894737,14,06,2.11,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Example Projects,Listed species recovery project,6,31.57894737,14,10,2.97,Steph Wald,Creeklands Conservation,28115
+Example Projects,Listed species recovery project,6,31.57894737,14,11,2.34,Larissa Clark,California Department of Transportation,22226
+Example Projects,Listed species recovery project,6,31.57894737,14,17,0.35,Brian Trautwein,Environmental Defense Center,26394
+Example Projects,Natural and working lands conservation project,10,52.63157895,32,03,3,Doug Kern,Gaviota Coast Conservancy,19144
+Example Projects,Natural and working lands conservation project,10,52.63157895,32,05,6.25,Michael Delbar,California Rangeland Trust,24727
+Example Projects,Natural and working lands conservation project,10,52.63157895,32,06,4.17,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Example Projects,Natural and working lands conservation project,10,52.63157895,32,08,1.01,Devin Rothman,The Land Trust For Santa Barbara,22750
+Example Projects,Natural and working lands conservation project,10,52.63157895,32,09,4.55,Garrett Wong,Santa Barbara County,25251
+Example Projects,Natural and working lands conservation project,10,52.63157895,32,10,0.17,Steph Wald,Creeklands Conservation,28115
+Example Projects,Natural and working lands conservation project,10,52.63157895,32,12,7.61,Devin Best,San Luis Obispo Resource Conservation District,29234
+Example Projects,Natural and working lands conservation project,10,52.63157895,32,14,3.15,Bre Sliker and Em Johnson,Community Environmental Council,27472
+Example Projects,Natural and working lands conservation project,10,52.63157895,32,17,5.58,Brian Trautwein,Environmental Defense Center,26394
+Example Projects,Natural and working lands conservation project,10,52.63157895,32,18,2.9,Emma Chow,United States Department of Agriculture - Natural Resource Conservation Service,21756
+Example Projects,Recreational benefit project,3,15.78947368,3,02,2,Christie Boser,United States Fish and Wildlife Service,29315
+Example Projects,Recreational benefit project,3,15.78947368,3,06,2.45,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Example Projects,Recreational benefit project,3,15.78947368,3,17,0.31,Brian Trautwein,Environmental Defense Center,26394
+Example Projects,Water resources management,11,57.89473684,27,01,1.63,Bill Leahy,LegacyWorks Group,25490
+Example Projects,Water resources management,11,57.89473684,27,03,1.11,Doug Kern,Gaviota Coast Conservancy,19144
+Example Projects,Water resources management,11,57.89473684,27,06,2,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Example Projects,Water resources management,11,57.89473684,27,07,3.38,Moe Gomez,South Coast Habitat Restoration,35299
+Example Projects,Water resources management,11,57.89473684,27,08,1.98,Devin Rothman,The Land Trust For Santa Barbara,22750
+Example Projects,Water resources management,11,57.89473684,27,09,0.15,Garrett Wong,Santa Barbara County,25251
+Example Projects,Water resources management,11,57.89473684,27,10,6.49,Steph Wald,Creeklands Conservation,28115
+Example Projects,Water resources management,11,57.89473684,27,12,3.05,Devin Best,San Luis Obispo Resource Conservation District,29234
+Example Projects,Water resources management,11,57.89473684,27,14,0.67,Bre Sliker and Em Johnson,Community Environmental Council,27472
+Example Projects,Water resources management,11,57.89473684,27,17,2.65,Brian Trautwein,Environmental Defense Center,26394
+Example Projects,Water resources management,11,57.89473684,27,18,2.32,Emma Chow,United States Department of Agriculture - Natural Resource Conservation Service,21756
+Implementation Barriers,Collaboration barriers,8,42.10526316,28,02,2,Christie Boser,United States Fish and Wildlife Service,29315
+Implementation Barriers,Collaboration barriers,8,42.10526316,28,04,5.56,Mark Reynolds,The Nature Conservancy,17789
+Implementation Barriers,Collaboration barriers,8,42.10526316,28,05,3.87,Michael Delbar,California Rangeland Trust,24727
+Implementation Barriers,Collaboration barriers,8,42.10526316,28,06,1.73,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Implementation Barriers,Collaboration barriers,8,42.10526316,28,10,4.5,Steph Wald,Creeklands Conservation,28115
+Implementation Barriers,Collaboration barriers,8,42.10526316,28,12,0.87,Devin Best,San Luis Obispo Resource Conservation District,29234
+Implementation Barriers,Collaboration barriers,8,42.10526316,28,17,5.03,Brian Trautwein,Environmental Defense Center,26394
+Implementation Barriers,Collaboration barriers,8,42.10526316,28,18,2.54,Emma Chow,United States Department of Agriculture - Natural Resource Conservation Service,21756
+Implementation Barriers,Development pressures,3,15.78947368,11,06,1.69,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Implementation Barriers,Development pressures,3,15.78947368,11,08,4.21,Devin Rothman,The Land Trust For Santa Barbara,22750
+Implementation Barriers,Development pressures,3,15.78947368,11,17,3.87,Brian Trautwein,Environmental Defense Center,26394
+Implementation Barriers,Funding deficiencies,14,73.68421053,47,01,3.34,Bill Leahy,LegacyWorks Group,25490
+Implementation Barriers,Funding deficiencies,14,73.68421053,47,02,1,Christie Boser,United States Fish and Wildlife Service,29315
+Implementation Barriers,Funding deficiencies,14,73.68421053,47,03,2.08,Doug Kern,Gaviota Coast Conservancy,19144
+Implementation Barriers,Funding deficiencies,14,73.68421053,47,05,4.82,Michael Delbar,California Rangeland Trust,24727
+Implementation Barriers,Funding deficiencies,14,73.68421053,47,06,2.88,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Implementation Barriers,Funding deficiencies,14,73.68421053,47,08,3.49,Devin Rothman,The Land Trust For Santa Barbara,22750
+Implementation Barriers,Funding deficiencies,14,73.68421053,47,09,2.1,Garrett Wong,Santa Barbara County,25251
+Implementation Barriers,Funding deficiencies,14,73.68421053,47,10,6.55,Steph Wald,Creeklands Conservation,28115
+Implementation Barriers,Funding deficiencies,14,73.68421053,47,11,2.41,Larissa Clark,California Department of Transportation,22226
+Implementation Barriers,Funding deficiencies,14,73.68421053,47,12,3.06,Devin Best,San Luis Obispo Resource Conservation District,29234
+Implementation Barriers,Funding deficiencies,14,73.68421053,47,14,4.69,Bre Sliker and Em Johnson,Community Environmental Council,27472
+Implementation Barriers,Funding deficiencies,14,73.68421053,47,16,0.38,Brian Holguin,Archeological Consultant,21468
+Implementation Barriers,Funding deficiencies,14,73.68421053,47,18,2.05,Emma Chow,United States Department of Agriculture - Natural Resource Conservation Service,21756
+Implementation Barriers,Funding deficiencies,14,73.68421053,47,19,1.63,Teresa Romero,Native Coast Action Network,21630
+Implementation Barriers,Political barriers,14,73.68421053,71,02,6,Christie Boser,United States Fish and Wildlife Service,29315
+Implementation Barriers,Political barriers,14,73.68421053,71,03,6,Doug Kern,Gaviota Coast Conservancy,19144
+Implementation Barriers,Political barriers,14,73.68421053,71,04,7.74,Mark Reynolds,The Nature Conservancy,17789
+Implementation Barriers,Political barriers,14,73.68421053,71,06,8.52,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Implementation Barriers,Political barriers,14,73.68421053,71,07,5.68,Moe Gomez,South Coast Habitat Restoration,35299
+Implementation Barriers,Political barriers,14,73.68421053,71,08,4.45,Devin Rothman,The Land Trust For Santa Barbara,22750
+Implementation Barriers,Political barriers,14,73.68421053,71,09,20.61,Garrett Wong,Santa Barbara County,25251
+Implementation Barriers,Political barriers,14,73.68421053,71,10,16.42,Steph Wald,Creeklands Conservation,28115
+Implementation Barriers,Political barriers,14,73.68421053,71,11,2.36,Larissa Clark,California Department of Transportation,22226
+Implementation Barriers,Political barriers,14,73.68421053,71,12,0.14,Devin Best,San Luis Obispo Resource Conservation District,29234
+Implementation Barriers,Political barriers,14,73.68421053,71,13,7.74,Ben Halpern,National Center for Ecological Analysis and Synthesis,19784
+Implementation Barriers,Political barriers,14,73.68421053,71,14,2.77,Bre Sliker and Em Johnson,Community Environmental Council,27472
+Implementation Barriers,Political barriers,14,73.68421053,71,17,3.69,Brian Trautwein,Environmental Defense Center,26394
+Implementation Barriers,Political barriers,14,73.68421053,71,18,6.71,Emma Chow,United States Department of Agriculture - Natural Resource Conservation Service,21756
+Implementation Barriers,Resource deficiencies,10,52.63157895,36,01,11.06,Bill Leahy,LegacyWorks Group,25490
+Implementation Barriers,Resource deficiencies,10,52.63157895,36,02,4,Christie Boser,United States Fish and Wildlife Service,29315
+Implementation Barriers,Resource deficiencies,10,52.63157895,36,07,2.36,Moe Gomez,South Coast Habitat Restoration,35299
+Implementation Barriers,Resource deficiencies,10,52.63157895,36,08,3.7,Devin Rothman,The Land Trust For Santa Barbara,22750
+Implementation Barriers,Resource deficiencies,10,52.63157895,36,09,3.69,Garrett Wong,Santa Barbara County,25251
+Implementation Barriers,Resource deficiencies,10,52.63157895,36,10,4.91,Steph Wald,Creeklands Conservation,28115
+Implementation Barriers,Resource deficiencies,10,52.63157895,36,14,1.63,Bre Sliker and Em Johnson,Community Environmental Council,27472
+Implementation Barriers,Resource deficiencies,10,52.63157895,36,16,3.27,Brian Holguin,Archeological Consultant,21468
+Implementation Barriers,Resource deficiencies,10,52.63157895,36,18,2.17,Emma Chow,United States Department of Agriculture - Natural Resource Conservation Service,21756
+Implementation Barriers,Resource deficiencies,10,52.63157895,36,19,1.97,Teresa Romero,Native Coast Action Network,21630
+Measures of Success,Collaborative partnerships,17,89.47368421,37,01,4.04,Bill Leahy,LegacyWorks Group,25490
+Measures of Success,Collaborative partnerships,17,89.47368421,37,02,1,Christie Boser,United States Fish and Wildlife Service,29315
+Measures of Success,Collaborative partnerships,17,89.47368421,37,03,5,Doug Kern,Gaviota Coast Conservancy,19144
+Measures of Success,Collaborative partnerships,17,89.47368421,37,04,2.01,Mark Reynolds,The Nature Conservancy,17789
+Measures of Success,Collaborative partnerships,17,89.47368421,37,05,2.87,Michael Delbar,California Rangeland Trust,24727
+Measures of Success,Collaborative partnerships,17,89.47368421,37,07,2.04,Moe Gomez,South Coast Habitat Restoration,35299
+Measures of Success,Collaborative partnerships,17,89.47368421,37,08,1.33,Devin Rothman,The Land Trust For Santa Barbara,22750
+Measures of Success,Collaborative partnerships,17,89.47368421,37,09,1.96,Garrett Wong,Santa Barbara County,25251
+Measures of Success,Collaborative partnerships,17,89.47368421,37,10,8.74,Steph Wald,Creeklands Conservation,28115
+Measures of Success,Collaborative partnerships,17,89.47368421,37,11,3.76,Larissa Clark,California Department of Transportation,22226
+Measures of Success,Collaborative partnerships,17,89.47368421,37,13,7.64,Ben Halpern,National Center for Ecological Analysis and Synthesis,19784
+Measures of Success,Collaborative partnerships,17,89.47368421,37,14,1.37,Bre Sliker and Em Johnson,Community Environmental Council,27472
+Measures of Success,Collaborative partnerships,17,89.47368421,37,15,5.07,Darryl York,Vandenberg Space Force Base,23003
+Measures of Success,Collaborative partnerships,17,89.47368421,37,16,3.44,Brian Holguin,Archeological Consultant,21468
+Measures of Success,Collaborative partnerships,17,89.47368421,37,17,0.84,Brian Trautwein,Environmental Defense Center,26394
+Measures of Success,Collaborative partnerships,17,89.47368421,37,18,4.08,Emma Chow,United States Department of Agriculture - Natural Resource Conservation Service,21756
+Measures of Success,Collaborative partnerships,17,89.47368421,37,19,3.16,Teresa Romero,Native Coast Action Network,21630
+Measures of Success,Community oriented success metrics,8,42.10526316,15,04,4.1,Mark Reynolds,The Nature Conservancy,17789
+Measures of Success,Community oriented success metrics,8,42.10526316,15,06,1.87,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Measures of Success,Community oriented success metrics,8,42.10526316,15,09,1.18,Garrett Wong,Santa Barbara County,25251
+Measures of Success,Community oriented success metrics,8,42.10526316,15,12,1.51,Devin Best,San Luis Obispo Resource Conservation District,29234
+Measures of Success,Community oriented success metrics,8,42.10526316,15,13,14.93,Ben Halpern,National Center for Ecological Analysis and Synthesis,19784
+Measures of Success,Community oriented success metrics,8,42.10526316,15,16,8,Brian Holguin,Archeological Consultant,21468
+Measures of Success,Community oriented success metrics,8,42.10526316,15,17,0.37,Brian Trautwein,Environmental Defense Center,26394
+Measures of Success,Community oriented success metrics,8,42.10526316,15,19,1.71,Teresa Romero,Native Coast Action Network,21630
+Measures of Success,Increased biodiversity,6,31.57894737,10,04,2.65,Mark Reynolds,The Nature Conservancy,17789
+Measures of Success,Increased biodiversity,6,31.57894737,10,06,2.57,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Measures of Success,Increased biodiversity,6,31.57894737,10,13,1.43,Ben Halpern,National Center for Ecological Analysis and Synthesis,19784
+Measures of Success,Increased biodiversity,6,31.57894737,10,15,1.17,Darryl York,Vandenberg Space Force Base,23003
+Measures of Success,Increased biodiversity,6,31.57894737,10,17,2.13,Brian Trautwein,Environmental Defense Center,26394
+Measures of Success,Increased biodiversity,6,31.57894737,10,19,0.25,Teresa Romero,Native Coast Action Network,21630
+Measures of Success,Increased project completion efficiency,6,31.57894737,6,05,2.3,Michael Delbar,California Rangeland Trust,24727
+Measures of Success,Increased project completion efficiency,6,31.57894737,6,06,1.21,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Measures of Success,Increased project completion efficiency,6,31.57894737,6,07,1.04,Moe Gomez,South Coast Habitat Restoration,35299
+Measures of Success,Increased project completion efficiency,6,31.57894737,6,10,0.9,Steph Wald,Creeklands Conservation,28115
+Measures of Success,Increased project completion efficiency,6,31.57894737,6,12,1.72,Devin Best,San Luis Obispo Resource Conservation District,29234
+Measures of Success,Increased project completion efficiency,6,31.57894737,6,15,1.29,Darryl York,Vandenberg Space Force Base,23003
+Measures of Success,Increased project funding,6,31.57894737,7,02,1,Christie Boser,United States Fish and Wildlife Service,29315
+Measures of Success,Increased project funding,6,31.57894737,7,03,1.98,Doug Kern,Gaviota Coast Conservancy,19144
+Measures of Success,Increased project funding,6,31.57894737,7,05,1.66,Michael Delbar,California Rangeland Trust,24727
+Measures of Success,Increased project funding,6,31.57894737,7,07,1.03,Moe Gomez,South Coast Habitat Restoration,35299
+Measures of Success,Increased project funding,6,31.57894737,7,10,2.36,Steph Wald,Creeklands Conservation,28115
+Measures of Success,Increased project funding,6,31.57894737,7,18,0.58,Emma Chow,United States Department of Agriculture - Natural Resource Conservation Service,21756
+Measures of Success,Monitoring and evlauation,2,10.52631579,2,14,3.91,Bre Sliker and Em Johnson,Community Environmental Council,27472
+Measures of Success,Monitoring and evlauation,2,10.52631579,2,19,0.5,Teresa Romero,Native Coast Action Network,21630
+Motivations,Capacity building,3,15.78947368,7,07,6.4,Moe Gomez,South Coast Habitat Restoration,35299
+Motivations,Capacity building,3,15.78947368,7,14,2.94,Bre Sliker and Em Johnson,Community Environmental Council,27472
+Motivations,Capacity building,3,15.78947368,7,19,3.33,Teresa Romero,Native Coast Action Network,21630
+Motivations,Climate resiliency,7,36.84210526,14,01,2.17,Bill Leahy,LegacyWorks Group,25490
+Motivations,Climate resiliency,7,36.84210526,14,08,1.87,Devin Rothman,The Land Trust For Santa Barbara,22750
+Motivations,Climate resiliency,7,36.84210526,14,09,3.6,Garrett Wong,Santa Barbara County,25251
+Motivations,Climate resiliency,7,36.84210526,14,10,0.17,Steph Wald,Creeklands Conservation,28115
+Motivations,Climate resiliency,7,36.84210526,14,12,0.36,Devin Best,San Luis Obispo Resource Conservation District,29234
+Motivations,Climate resiliency,7,36.84210526,14,14,2.42,Bre Sliker and Em Johnson,Community Environmental Council,27472
+Motivations,Climate resiliency,7,36.84210526,14,17,2.33,Brian Trautwein,Environmental Defense Center,26394
+Motivations,Ecosystem resilience,3,15.78947368,3,12,0.85,Devin Best,San Luis Obispo Resource Conservation District,29234
+Motivations,Ecosystem resilience,3,15.78947368,3,16,1.64,Brian Holguin,Archeological Consultant,21468
+Motivations,Ecosystem resilience,3,15.78947368,3,19,0.28,Teresa Romero,Native Coast Action Network,21630
+Motivations,Environmental justice,8,42.10526316,12,01,3.6,Bill Leahy,LegacyWorks Group,25490
+Motivations,Environmental justice,8,42.10526316,12,03,0.75,Doug Kern,Gaviota Coast Conservancy,19144
+Motivations,Environmental justice,8,42.10526316,12,09,0.18,Garrett Wong,Santa Barbara County,25251
+Motivations,Environmental justice,8,42.10526316,12,10,0.14,Steph Wald,Creeklands Conservation,28115
+Motivations,Environmental justice,8,42.10526316,12,12,3.5,Devin Best,San Luis Obispo Resource Conservation District,29234
+Motivations,Environmental justice,8,42.10526316,12,15,0.75,Darryl York,Vandenberg Space Force Base,23003
+Motivations,Environmental justice,8,42.10526316,12,16,8.32,Brian Holguin,Archeological Consultant,21468
+Motivations,Environmental justice,8,42.10526316,12,19,3.04,Teresa Romero,Native Coast Action Network,21630
+Motivations,Fostering partnerships,10,52.63157895,20,01,3.12,Bill Leahy,LegacyWorks Group,25490
+Motivations,Fostering partnerships,10,52.63157895,20,02,1,Christie Boser,United States Fish and Wildlife Service,29315
+Motivations,Fostering partnerships,10,52.63157895,20,04,2.88,Mark Reynolds,The Nature Conservancy,17789
+Motivations,Fostering partnerships,10,52.63157895,20,06,1.23,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Motivations,Fostering partnerships,10,52.63157895,20,10,1.03,Steph Wald,Creeklands Conservation,28115
+Motivations,Fostering partnerships,10,52.63157895,20,11,1.44,Larissa Clark,California Department of Transportation,22226
+Motivations,Fostering partnerships,10,52.63157895,20,12,1.15,Devin Best,San Luis Obispo Resource Conservation District,29234
+Motivations,Fostering partnerships,10,52.63157895,20,14,1.73,Bre Sliker and Em Johnson,Community Environmental Council,27472
+Motivations,Fostering partnerships,10,52.63157895,20,15,5.59,Darryl York,Vandenberg Space Force Base,23003
+Motivations,Fostering partnerships,10,52.63157895,20,19,3.43,Teresa Romero,Native Coast Action Network,21630
+Motivations,Funding opportunity,4,21.05263158,13,07,1.1,Moe Gomez,South Coast Habitat Restoration,35299
+Motivations,Funding opportunity,4,21.05263158,13,08,4.96,Devin Rothman,The Land Trust For Santa Barbara,22750
+Motivations,Funding opportunity,4,21.05263158,13,10,2.22,Steph Wald,Creeklands Conservation,28115
+Motivations,Funding opportunity,4,21.05263158,13,18,1.94,Emma Chow,United States Department of Agriculture - Natural Resource Conservation Service,21756
+Motivations,Listed species recovery,2,10.52631579,3,11,1.15,Larissa Clark,California Department of Transportation,22226
+Motivations,Listed species recovery,2,10.52631579,3,15,9.9,Darryl York,Vandenberg Space Force Base,23003
+Motivations,Meeting community needs,3,15.78947368,8,01,4.64,Bill Leahy,LegacyWorks Group,25490
+Motivations,Meeting community needs,3,15.78947368,8,18,2.22,Emma Chow,United States Department of Agriculture - Natural Resource Conservation Service,21756
+Motivations,Meeting community needs,3,15.78947368,8,19,1.46,Teresa Romero,Native Coast Action Network,21630
+Motivations,Natural disaster risk reduction,1,5.263157895,2,18,2.19,Emma Chow,United States Department of Agriculture - Natural Resource Conservation Service,21756
+Motivations,Preserving biodiversity,16,84.21052632,56,01,0.97,Bill Leahy,LegacyWorks Group,25490
+Motivations,Preserving biodiversity,16,84.21052632,56,02,3,Christie Boser,United States Fish and Wildlife Service,29315
+Motivations,Preserving biodiversity,16,84.21052632,56,03,3.25,Doug Kern,Gaviota Coast Conservancy,19144
+Motivations,Preserving biodiversity,16,84.21052632,56,04,1.78,Mark Reynolds,The Nature Conservancy,17789
+Motivations,Preserving biodiversity,16,84.21052632,56,05,1.49,Michael Delbar,California Rangeland Trust,24727
+Motivations,Preserving biodiversity,16,84.21052632,56,06,4.39,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Motivations,Preserving biodiversity,16,84.21052632,56,07,5.81,Moe Gomez,South Coast Habitat Restoration,35299
+Motivations,Preserving biodiversity,16,84.21052632,56,09,0.16,Garrett Wong,Santa Barbara County,25251
+Motivations,Preserving biodiversity,16,84.21052632,56,10,6.48,Steph Wald,Creeklands Conservation,28115
+Motivations,Preserving biodiversity,16,84.21052632,56,11,4.75,Larissa Clark,California Department of Transportation,22226
+Motivations,Preserving biodiversity,16,84.21052632,56,12,0.42,Devin Best,San Luis Obispo Resource Conservation District,29234
+Motivations,Preserving biodiversity,16,84.21052632,56,13,11.75,Ben Halpern,National Center for Ecological Analysis and Synthesis,19784
+Motivations,Preserving biodiversity,16,84.21052632,56,14,1.26,Bre Sliker and Em Johnson,Community Environmental Council,27472
+Motivations,Preserving biodiversity,16,84.21052632,56,15,10.33,Darryl York,Vandenberg Space Force Base,23003
+Motivations,Preserving biodiversity,16,84.21052632,56,17,11.12,Brian Trautwein,Environmental Defense Center,26394
+Motivations,Preserving biodiversity,16,84.21052632,56,18,0.54,Emma Chow,United States Department of Agriculture - Natural Resource Conservation Service,21756
+Motivations,Private land preservation,11,57.89473684,26,01,1.48,Bill Leahy,LegacyWorks Group,25490
+Motivations,Private land preservation,11,57.89473684,26,02,3,Christie Boser,United States Fish and Wildlife Service,29315
+Motivations,Private land preservation,11,57.89473684,26,03,5,Doug Kern,Gaviota Coast Conservancy,19144
+Motivations,Private land preservation,11,57.89473684,26,04,3.69,Mark Reynolds,The Nature Conservancy,17789
+Motivations,Private land preservation,11,57.89473684,26,05,11.01,Michael Delbar,California Rangeland Trust,24727
+Motivations,Private land preservation,11,57.89473684,26,07,1.16,Moe Gomez,South Coast Habitat Restoration,35299
+Motivations,Private land preservation,11,57.89473684,26,08,3.14,Devin Rothman,The Land Trust For Santa Barbara,22750
+Motivations,Private land preservation,11,57.89473684,26,13,2.4,Ben Halpern,National Center for Ecological Analysis and Synthesis,19784
+Motivations,Private land preservation,11,57.89473684,26,15,2.92,Darryl York,Vandenberg Space Force Base,23003
+Motivations,Private land preservation,11,57.89473684,26,17,1.85,Brian Trautwein,Environmental Defense Center,26394
+Motivations,Private land preservation,11,57.89473684,26,18,0.31,Emma Chow,United States Department of Agriculture - Natural Resource Conservation Service,21756
+Motivations,Recreational benefit,5,26.31578947,10,03,3.23,Doug Kern,Gaviota Coast Conservancy,19144
+Motivations,Recreational benefit,5,26.31578947,10,06,0.26,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Motivations,Recreational benefit,5,26.31578947,10,08,3.25,Devin Rothman,The Land Trust For Santa Barbara,22750
+Motivations,Recreational benefit,5,26.31578947,10,13,0.66,Ben Halpern,National Center for Ecological Analysis and Synthesis,19784
+Motivations,Recreational benefit,5,26.31578947,10,17,0.55,Brian Trautwein,Environmental Defense Center,26394
+Motivations,Regulatory compliance and mitigation,5,26.31578947,10,05,1.88,Michael Delbar,California Rangeland Trust,24727
+Motivations,Regulatory compliance and mitigation,5,26.31578947,10,06,0.47,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Motivations,Regulatory compliance and mitigation,5,26.31578947,10,07,2.08,Moe Gomez,South Coast Habitat Restoration,35299
+Motivations,Regulatory compliance and mitigation,5,26.31578947,10,15,5.4,Darryl York,Vandenberg Space Force Base,23003
+Motivations,Regulatory compliance and mitigation,5,26.31578947,10,18,0.98,Emma Chow,United States Department of Agriculture - Natural Resource Conservation Service,21756
+Motivations,Water resources conservation,1,5.263157895,1,NA,NA,NA,NA,NA
+Priority Conservation Areas,Arroyo Hondo Preserve,2,10.52631579,2,07,0.04,Moe Gomez,South Coast Habitat Restoration,35299
+Priority Conservation Areas,Arroyo Hondo Preserve,2,10.52631579,2,08,0.72,Devin Rothman,The Land Trust For Santa Barbara,22750
+Priority Conservation Areas,Cat Canyon,1,5.263157895,1,17,0.07,Brian Trautwein,Environmental Defense Center,26394
+Priority Conservation Areas,Chumash Marine Sanctuary,2,10.52631579,2,01,0.99,Bill Leahy,LegacyWorks Group,25490
+Priority Conservation Areas,Chumash Marine Sanctuary,2,10.52631579,2,06,0.45,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Priority Conservation Areas,Coastal zones,3,15.78947368,4,01,2.73,Bill Leahy,LegacyWorks Group,25490
+Priority Conservation Areas,Coastal zones,3,15.78947368,4,13,6.28,Ben Halpern,National Center for Ecological Analysis and Synthesis,19784
+Priority Conservation Areas,Coastal zones,3,15.78947368,4,17,0.15,Brian Trautwein,Environmental Defense Center,26394
+Priority Conservation Areas,Cuyama Valley,2,10.52631579,2,08,1.73,Devin Rothman,The Land Trust For Santa Barbara,22750
+Priority Conservation Areas,Cuyama Valley,2,10.52631579,2,18,0.11,Emma Chow,United States Department of Agriculture - Natural Resource Conservation Service,21756
+Priority Conservation Areas,Elkat Canyon Resort,1,5.263157895,1,03,1.04,Doug Kern,Gaviota Coast Conservancy,19144
+Priority Conservation Areas,Gaviota Coast,8,42.10526316,14,01,0.74,Bill Leahy,LegacyWorks Group,25490
+Priority Conservation Areas,Gaviota Coast,8,42.10526316,14,02,1,Christie Boser,United States Fish and Wildlife Service,29315
+Priority Conservation Areas,Gaviota Coast,8,42.10526316,14,03,0.84,Doug Kern,Gaviota Coast Conservancy,19144
+Priority Conservation Areas,Gaviota Coast,8,42.10526316,14,06,5.61,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Priority Conservation Areas,Gaviota Coast,8,42.10526316,14,07,0.84,Moe Gomez,South Coast Habitat Restoration,35299
+Priority Conservation Areas,Gaviota Coast,8,42.10526316,14,08,0.33,Devin Rothman,The Land Trust For Santa Barbara,22750
+Priority Conservation Areas,Gaviota Coast,8,42.10526316,14,13,1.47,Ben Halpern,National Center for Ecological Analysis and Synthesis,19784
+Priority Conservation Areas,Gaviota Coast,8,42.10526316,14,17,0.51,Brian Trautwein,Environmental Defense Center,26394
+Priority Conservation Areas,Goleta Coast,1,5.263157895,2,17,0.36,Brian Trautwein,Environmental Defense Center,26394
+Priority Conservation Areas,Guadalupe-Nipomo Dunes,1,5.263157895,2,02,2,Christie Boser,United States Fish and Wildlife Service,29315
+Priority Conservation Areas,Hollister Ranch,2,10.52631579,3,03,1.6,Doug Kern,Gaviota Coast Conservancy,19144
+Priority Conservation Areas,Hollister Ranch,2,10.52631579,3,13,1.47,Ben Halpern,National Center for Ecological Analysis and Synthesis,19784
+Priority Conservation Areas,Jack and Laura Dangermond Preserve,8,42.10526316,12,02,1,Christie Boser,United States Fish and Wildlife Service,29315
+Priority Conservation Areas,Jack and Laura Dangermond Preserve,8,42.10526316,12,03,1.59,Doug Kern,Gaviota Coast Conservancy,19144
+Priority Conservation Areas,Jack and Laura Dangermond Preserve,8,42.10526316,12,04,2.92,Mark Reynolds,The Nature Conservancy,17789
+Priority Conservation Areas,Jack and Laura Dangermond Preserve,8,42.10526316,12,06,0.45,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Priority Conservation Areas,Jack and Laura Dangermond Preserve,8,42.10526316,12,13,3.21,Ben Halpern,National Center for Ecological Analysis and Synthesis,19784
+Priority Conservation Areas,Jack and Laura Dangermond Preserve,8,42.10526316,12,15,2.77,Darryl York,Vandenberg Space Force Base,23003
+Priority Conservation Areas,Jack and Laura Dangermond Preserve,8,42.10526316,12,16,2.28,Brian Holguin,Archeological Consultant,21468
+Priority Conservation Areas,Jack and Laura Dangermond Preserve,8,42.10526316,12,19,0.97,Teresa Romero,Native Coast Action Network,21630
+Priority Conservation Areas,Los Padres National Forest,3,15.78947368,3,01,1.62,Bill Leahy,LegacyWorks Group,25490
+Priority Conservation Areas,Los Padres National Forest,3,15.78947368,3,07,2.05,Moe Gomez,South Coast Habitat Restoration,35299
+Priority Conservation Areas,Los Padres National Forest,3,15.78947368,3,17,0.19,Brian Trautwein,Environmental Defense Center,26394
+Priority Conservation Areas,Point Conception,7,36.84210526,11,01,0.74,Bill Leahy,LegacyWorks Group,25490
+Priority Conservation Areas,Point Conception,7,36.84210526,11,02,1,Christie Boser,United States Fish and Wildlife Service,29315
+Priority Conservation Areas,Point Conception,7,36.84210526,11,03,1.18,Doug Kern,Gaviota Coast Conservancy,19144
+Priority Conservation Areas,Point Conception,7,36.84210526,11,04,2.56,Mark Reynolds,The Nature Conservancy,17789
+Priority Conservation Areas,Point Conception,7,36.84210526,11,06,0.57,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Priority Conservation Areas,Point Conception,7,36.84210526,11,13,7.28,Ben Halpern,National Center for Ecological Analysis and Synthesis,19784
+Priority Conservation Areas,Point Conception,7,36.84210526,11,15,0.56,Darryl York,Vandenberg Space Force Base,23003
+Priority Conservation Areas,Point Sal,1,5.263157895,2,03,1.6,Doug Kern,Gaviota Coast Conservancy,19144
+Priority Conservation Areas,Purisima Hills,1,5.263157895,1,08,0.58,Devin Rothman,The Land Trust For Santa Barbara,22750
+Priority Conservation Areas,Santa Maria River,2,10.52631579,5,02,2,Christie Boser,United States Fish and Wildlife Service,29315
+Priority Conservation Areas,Santa Maria River,2,10.52631579,5,10,0.74,Steph Wald,Creeklands Conservation,28115
+Priority Conservation Areas,Santa Maria Valley,2,10.52631579,2,08,0.24,Devin Rothman,The Land Trust For Santa Barbara,22750
+Priority Conservation Areas,Santa Maria Valley,2,10.52631579,2,17,0.12,Brian Trautwein,Environmental Defense Center,26394
+Priority Conservation Areas,Santa Ynez River,4,21.05263158,4,02,1,Christie Boser,United States Fish and Wildlife Service,29315
+Priority Conservation Areas,Santa Ynez River,4,21.05263158,4,03,1.06,Doug Kern,Gaviota Coast Conservancy,19144
+Priority Conservation Areas,Santa Ynez River,4,21.05263158,4,06,0.57,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Priority Conservation Areas,Santa Ynez River,4,21.05263158,4,16,2.19,Brian Holguin,Archeological Consultant,21468
+Priority Conservation Areas,Santa Ynez Valley,1,5.263157895,4,17,1.4,Brian Trautwein,Environmental Defense Center,26394
+Priority Conservation Areas,Sedgwick Reserve,1,5.263157895,2,19,1.28,Teresa Romero,Native Coast Action Network,21630
+Priority Conservation Areas,Sisquoc River Valley,1,5.263157895,1,17,0.21,Brian Trautwein,Environmental Defense Center,26394
+Priority Conservation Areas,Tajiguas Landfill,1,5.263157895,1,03,2.01,Doug Kern,Gaviota Coast Conservancy,19144
+Priority Conservation Areas,Vandenberg Space Force Base,6,31.57894737,7,03,1.18,Doug Kern,Gaviota Coast Conservancy,19144
+Priority Conservation Areas,Vandenberg Space Force Base,6,31.57894737,7,07,0.19,Moe Gomez,South Coast Habitat Restoration,35299
+Priority Conservation Areas,Vandenberg Space Force Base,6,31.57894737,7,08,1.04,Devin Rothman,The Land Trust For Santa Barbara,22750
+Priority Conservation Areas,Vandenberg Space Force Base,6,31.57894737,7,13,1.47,Ben Halpern,National Center for Ecological Analysis and Synthesis,19784
+Priority Conservation Areas,Vandenberg Space Force Base,6,31.57894737,7,15,2.28,Darryl York,Vandenberg Space Force Base,23003
+Priority Conservation Areas,Vandenberg Space Force Base,6,31.57894737,7,19,0.56,Teresa Romero,Native Coast Action Network,21630
+Priority Conservation Areas,Watersheds,7,36.84210526,17,04,1.06,Mark Reynolds,The Nature Conservancy,17789
+Priority Conservation Areas,Watersheds,7,36.84210526,17,06,0.8,Candice Meneghin and Doug Kern,Coastal Ranches Conservancy,25604
+Priority Conservation Areas,Watersheds,7,36.84210526,17,07,2.97,Moe Gomez,South Coast Habitat Restoration,35299
+Priority Conservation Areas,Watersheds,7,36.84210526,17,10,1.68,Steph Wald,Creeklands Conservation,28115
+Priority Conservation Areas,Watersheds,7,36.84210526,17,11,1.56,Larissa Clark,California Department of Transportation,22226
+Priority Conservation Areas,Watersheds,7,36.84210526,17,12,1.39,Devin Best,San Luis Obispo Resource Conservation District,29234
+Priority Conservation Areas,Watersheds,7,36.84210526,17,17,0.15,Brian Trautwein,Environmental Defense Center,26394

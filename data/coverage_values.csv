@@ -1,0 +1,340 @@
+interview_id,clean_code,percent_coverage
+01,Resource deficiencies,11.06
+01,Fire and fuels management,4.65
+01,Meeting community needs,4.64
+01,Collaborative partnerships,4.04
+01,Biodiversity preservation project,3.65
+01,Environmental justice,3.60
+01,Funding deficiencies,3.34
+01,Fostering partnerships,3.12
+01,Coastal zones,2.73
+01,Climate resiliency,2.17
+01,Water resources management,1.63
+01,Los Padres National Forest,1.62
+01,Biodiversity metrics,1.56
+01,Private land preservation,1.48
+01,Habitat intactness (structural),1.43
+01,Chumash Marine Sanctuary,0.99
+01,Preserving biodiversity,0.97
+01,Gaviota Coast,0.74
+01,Point Conception,0.74
+02,Listed species recovery project,8
+02,Political barriers,6
+02,Resource deficiencies,4
+02,Private land preservation,3
+02,Preserving biodiversity,3
+02,Guadalupe-Nipomo Dunes,2
+02,Recreational benefit project,2
+02,Collaboration barriers,2
+02,Santa Maria River,2
+02,Equity and environmental justice,2
+02,Fostering partnerships,1
+02,Gaviota Coast,1
+02,Jack and Laura Dangermond Preserve,1
+02,Santa Ynez River,1
+02,Funding deficiencies,1
+02,Point Conception,1
+02,Special status species,1
+02,Collaborative partnerships,1
+02,Increased project funding,1
+02,Biodiversity metrics,1
+03,Political barriers,6
+03,Private land preservation,5
+03,Collaborative partnerships,5
+03,Special status species,5
+03,Habitat intactness (structural),4
+03,Natural and working lands conservation project,3
+03,Preserving biodiversity,3.25
+03,Recreational benefit,3.23
+03,Funding deficiencies,2.08
+03,Biodiversity metrics,2.05
+03,Tajiguas Landfill,2.01
+03,Increased project funding,1.98
+03,Ecological resilience (functional),1.80
+03,Hollister Ranch,1.60
+03,Point Sal,1.60
+03,Jack and Laura Dangermond Preserve,1.59
+03,Point Conception,1.18
+03,Vandenberg Space Force Base,1.18
+03,Water resources management,1.11
+03,Santa Ynez River,1.06
+03,Elkat Canyon Resort,1.04
+03,Gaviota Coast,0.84
+03,Environmental justice,0.75
+03,Listed species recovery project,0.46
+04,Political barriers,7.74
+04,Habitat intactness (structural),6.73
+04,Collaboration barriers,5.56
+04,Community oriented success metrics,4.10
+04,Biodiversity metrics,3.79
+04,Private land preservation,3.69
+04,Jack and Laura Dangermond Preserve,2.92
+04,Special status species,2.92
+04,Fostering partnerships,2.88
+04,Increased biodiversity,2.65
+04,Point Conception,2.56
+04,Habitat restoration,2.18
+04,Collaborative partnerships,2.01
+04,Ecological resilience (functional),1.86
+04,Preserving biodiversity,1.78
+04,Fire and fuels management,1.30
+04,Watersheds,1.06
+04,Biodiversity preservation project,0.24
+05,Private land preservation,11.01
+05,Natural and working lands conservation project,6.25
+05,Funding deficiencies,4.82
+05,Collaboration barriers,3.87
+05,Collaborative partnerships,2.87
+05,Increased project completion efficiency,2.30
+05,Regulatory compliance and mitigation,1.88
+05,Increased project funding,1.66
+05,Preserving biodiversity,1.49
+06,Biodiversity preservation project,11.15
+06,Political barriers,8.52
+06,Gaviota Coast,5.61
+06,Preserving biodiversity,4.39
+06,Natural and working lands conservation project,4.17
+06,Funding deficiencies,2.88
+06,Increased biodiversity,2.57
+06,Recreational benefit project,2.45
+06,Listed species recovery project,2.11
+06,Water resources management,2
+06,Community oriented success metrics,1.87
+06,Collaboration barriers,1.73
+06,Development pressures,1.69
+06,Climate adaptation and mitigation,1.62
+06,Special status species,1.51
+06,Fostering partnerships,1.23
+06,Increased project completion efficiency,1.21
+06,Ecological resilience (functional),0.96
+06,Watersheds,0.80
+06,Point Conception,0.57
+06,Santa Ynez River,0.57
+06,Regulatory compliance and mitigation,0.47
+06,Chumash Marine Sanctuary,0.45
+06,Jack and Laura Dangermond Preserve,0.45
+06,Recreational benefit,0.26
+07,Biodiversity preservation project,12.35
+07,Capacity building,6.40
+07,Preserving biodiversity,5.81
+07,Political barriers,5.68
+07,Water resources management,3.38
+07,Watersheds,2.97
+07,Water resources,2.59
+07,Habitat restoration,2.45
+07,Resource deficiencies,2.36
+07,Regulatory compliance and mitigation,2.08
+07,Los Padres National Forest,2.05
+07,Collaborative partnerships,2.04
+07,Private land preservation,1.16
+07,Funding opportunity,1.10
+07,Increased project completion efficiency,1.04
+07,Increased project funding,1.03
+07,Gaviota Coast,0.84
+07,Vandenberg Space Force Base,0.19
+07,Arroyo Hondo Preserve,0.04
+08,Funding opportunity,4.96
+08,Political barriers,4.45
+08,Development pressures,4.21
+08,Resource deficiencies,3.70
+08,Funding deficiencies,3.49
+08,Recreational benefit,3.25
+08,Private land preservation,3.14
+08,Water resources management,1.98
+08,Climate resiliency,1.87
+08,Cuyama Valley,1.73
+08,Special status species,1.52
+08,Collaborative partnerships,1.33
+08,Climate adaptation and mitigation,1.32
+08,Biodiversity preservation project,1.04
+08,Vandenberg Space Force Base,1.04
+08,Natural and working lands conservation project,1.01
+08,Habitat intactness (structural),0.77
+08,Arroyo Hondo Preserve,0.72
+08,Purisima Hills,0.58
+08,Gaviota Coast,0.33
+08,Santa Maria Valley,0.24
+09,Political barriers,20.61
+09,Natural and working lands conservation project,4.55
+09,Resource deficiencies,3.69
+09,Climate adaptation and mitigation,3.67
+09,Climate resiliency,3.60
+09,Funding deficiencies,2.10
+09,Collaborative partnerships,1.96
+09,Community oriented success metrics,1.18
+09,Fire and fuels management,0.96
+09,Environmental justice,0.18
+09,Preserving biodiversity,0.16
+09,Water resources management,0.15
+10,Political barriers,16.42
+10,Collaborative partnerships,8.74
+10,Funding deficiencies,6.55
+10,Water resources management,6.49
+10,Preserving biodiversity,6.48
+10,Resource deficiencies,4.91
+10,Collaboration barriers,4.50
+10,Biodiversity preservation project,3.43
+10,Listed species recovery project,2.97
+10,Increased project funding,2.36
+10,Funding opportunity,2.22
+10,Watersheds,1.68
+10,Fostering partnerships,1.03
+10,Increased project completion efficiency,0.90
+10,Santa Maria River,0.74
+10,Ecological resilience (functional),0.69
+10,Habitat intactness (structural),0.69
+10,Special status species,0.33
+10,Climate resiliency,0.17
+10,Natural and working lands conservation project,0.17
+10,Environmental justice,0.14
+11,Biodiversity preservation project,12.49
+11,Preserving biodiversity,4.75
+11,Collaborative partnerships,3.76
+11,Habitat intactness (structural),3
+11,Funding deficiencies,2.41
+11,Political barriers,2.36
+11,Listed species recovery project,2.34
+11,Watersheds,1.56
+11,Fostering partnerships,1.44
+11,Listed species recovery,1.15
+12,Natural and working lands conservation project,7.61
+12,Climate adaptation and mitigation,4.67
+12,Biodiversity preservation project,4.26
+12,Fire and fuels management,3.57
+12,Environmental justice,3.50
+12,Funding deficiencies,3.06
+12,Water resources management,3.05
+12,Habitat restoration,2.40
+12,Increased project completion efficiency,1.72
+12,Community oriented success metrics,1.51
+12,Watersheds,1.39
+12,Fostering partnerships,1.15
+12,Collaboration barriers,0.87
+12,Ecosystem resilience,0.85
+12,Preserving biodiversity,0.42
+12,Climate resiliency,0.36
+12,Political barriers,0.14
+13,Community oriented success metrics,14.93
+13,Preserving biodiversity,11.75
+13,Political barriers,7.74
+13,Collaborative partnerships,7.64
+13,Point Conception,7.28
+13,Coastal zones,6.28
+13,Habitat intactness (structural),3.79
+13,Cultural significance,3.76
+13,Jack and Laura Dangermond Preserve,3.21
+13,Habitat restoration,2.78
+13,Private land preservation,2.40
+13,Gaviota Coast,1.47
+13,Hollister Ranch,1.47
+13,Vandenberg Space Force Base,1.47
+13,Increased biodiversity,1.43
+13,Recreational benefit,0.66
+13,Biodiversity metrics,0.53
+14,Funding deficiencies,4.69
+14,Monitoring and evlauation,3.91
+14,Equity and environmental justice,3.87
+14,Natural and working lands conservation project,3.15
+14,Capacity building,2.94
+14,Political barriers,2.77
+14,Climate resiliency,2.42
+14,Biodiversity preservation project,2.22
+14,Climate adaptation and mitigation,2.04
+14,Fostering partnerships,1.73
+14,Habitat restoration,1.65
+14,Resource deficiencies,1.63
+14,Fire and fuels management,1.60
+14,Collaborative partnerships,1.37
+14,Preserving biodiversity,1.26
+14,Water resources management,0.67
+14,Biodiversity metrics,0.42
+15,Preserving biodiversity,10.33
+15,Listed species recovery,9.90
+15,Fostering partnerships,5.59
+15,Regulatory compliance and mitigation,5.40
+15,Collaborative partnerships,5.07
+15,Private land preservation,2.92
+15,Jack and Laura Dangermond Preserve,2.77
+15,Vandenberg Space Force Base,2.28
+15,Biodiversity metrics,1.82
+15,Habitat intactness (structural),1.75
+15,Habitat restoration,1.32
+15,Increased project completion efficiency,1.29
+15,Increased biodiversity,1.17
+15,Special status species,1.03
+15,Environmental justice,0.75
+15,Point Conception,0.56
+16,Environmental justice,8.32
+16,Cultural significance,8.07
+16,Community oriented success metrics,8
+16,Collaborative partnerships,3.44
+16,Resource deficiencies,3.27
+16,Fire and fuels management,3.04
+16,Biodiversity metrics,2.99
+16,Jack and Laura Dangermond Preserve,2.28
+16,Santa Ynez River,2.19
+16,Ecosystem resilience,1.64
+16,Funding deficiencies,0.38
+17,Preserving biodiversity,11.12
+17,Biodiversity preservation project,6.03
+17,Natural and working lands conservation project,5.58
+17,Collaboration barriers,5.03
+17,Development pressures,3.87
+17,Political barriers,3.69
+17,Water resources management,2.65
+17,Climate resiliency,2.33
+17,Increased biodiversity,2.13
+17,Biodiversity metrics,2.10
+17,Private land preservation,1.85
+17,Anti-development project,1.70
+17,Santa Ynez Valley,1.40
+17,Collaborative partnerships,0.84
+17,Ecological resilience (functional),0.59
+17,Recreational benefit,0.55
+17,Habitat intactness (structural),0.51
+17,Gaviota Coast,0.51
+17,Community oriented success metrics,0.37
+17,Goleta Coast,0.36
+17,Listed species recovery project,0.35
+17,Recreational benefit project,0.31
+17,Sisquoc River Valley,0.21
+17,Los Padres National Forest,0.19
+17,Coastal zones,0.15
+17,Watersheds,0.15
+17,Santa Maria Valley,0.12
+17,Cat Canyon,0.07
+18,Political barriers,6.71
+18,Collaborative partnerships,4.08
+18,Natural and working lands conservation project,2.90
+18,Collaboration barriers,2.54
+18,Water resources management,2.32
+18,Meeting community needs,2.22
+18,Natural disaster risk reduction,2.19
+18,Resource deficiencies,2.17
+18,Climate adaptation and mitigation,2.08
+18,Funding deficiencies,2.05
+18,Funding opportunity,1.94
+18,Regulatory compliance and mitigation,0.98
+18,Biodiversity preservation project,0.67
+18,Increased project funding,0.58
+18,Preserving biodiversity,0.54
+18,Private land preservation,0.31
+18,Fire and fuels management,0.18
+18,Cuyama Valley,0.11
+19,Fire and fuels management,8.08
+19,Fostering partnerships,3.43
+19,Capacity building,3.33
+19,Collaborative partnerships,3.16
+19,Environmental justice,3.04
+19,Ecological resilience (functional),2.97
+19,Resource deficiencies,1.97
+19,Community oriented success metrics,1.71
+19,Funding deficiencies,1.63
+19,Meeting community needs,1.46
+19,Sedgwick Reserve,1.28
+19,Jack and Laura Dangermond Preserve,0.97
+19,Biodiversity metrics,0.97
+19,Vandenberg Space Force Base,0.56
+19,Monitoring and evlauation,0.50
+19,Ecosystem resilience,0.28
+19,Increased biodiversity,0.25
